@@ -61,8 +61,7 @@ function total() {
         document.getElementById("afterBookingFirstTicket").innerText = firstClassTicketCount.value;
         document.getElementById("afterBookingEconomyTicket").innerText = economyTicketCount.value;
 
-        var total = document.getElementById("total").innerText;
+        const total = document.getElementById("total").innerText;
         document.getElementById("afterBookingTotal").innerText = total;
     })
 
-    
